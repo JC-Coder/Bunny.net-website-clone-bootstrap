@@ -1,0 +1,238 @@
+/* general styles */
+:root{
+    --bg-blue:  rgb(29, 25, 107);
+    --orange: orange;
+}
+
+*{
+    color: var(--bg-blue);
+}
+
+.divider{
+    background-color: var(--orange);
+    height: 2px;
+    border-radius: 10px;
+    opacity: 0.8;
+}
+
+/* nav  */
+
+.navbar{
+    background-color: var(--bg-blue);
+    align-items: center !important;
+}
+
+.navbar-brand p{
+    color: white;
+    font-style: italic;
+    font-weight: 600;
+}
+.p-span{
+    color: var(--orange);
+    font-size: 12px;
+}
+
+
+.navbar ul a{
+    color: white;
+}
+
+.navbar ul li a:hover{
+    color: var(--orange);
+}
+
+.navbar #login-btn{
+    border: 1px solid white;
+    color: white;
+}
+
+.navbar #login-btn:hover{
+    border: 1px solid var(--orange);
+    color: var(--orange);
+}
+
+.navbar #register-btn{
+    background-color: var(--orange);
+    color: white;
+}
+
+.navbar #register-btn:hover{
+    background-color: var(--bg-blue);
+    border: 1px solid var(--orange);
+    color: var(--orange);
+}
+
+/* hero section */
+
+.hero{
+    background-color: var(--bg-blue);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.hero .content{
+    margin-top: 40px;
+    padding: 150px;
+    text-align: center;
+}
+
+.hero h3 {
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.hero p{
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.6;
+    margin-top: 25px;
+}
+
+.hero button{
+    margin-top: 8px;  
+    background-color: var(--orange);
+    color: white;
+    font-weight: 600;
+}
+
+/* fact */
+
+.fact{
+    padding-top: 30px;
+    padding-bottom: 50px;
+    background: rgb(230, 230, 230);
+    min-height: 500px;
+}
+
+.fact .container h1{
+    margin-top: 15px;
+}
+
+.fact-divider{
+    background-color: var(--orange);
+    height: 2px;
+    border-radius: 10px;
+    opacity: 0.8;
+    width: 15%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.fact .contact{
+  padding-top: 35px;
+}
+
+.contact .socials ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+.socials ul i{
+    margin-right: 3px;
+}
+
+.socials ul li{
+    font-size: 16px;
+    font-weight: 500;
+    margin: 4px;
+}
+
+.fact .contact-form{
+    width: 400px;
+    height: 430px;
+    background-color: white;
+    margin-left: 100px;
+    margin-top: 50px;
+    padding: 20px;
+    padding-top: 30px;
+    box-shadow: 1px 1px 12px 0px rgb(0 0 0 / 28%);
+}
+
+.contact-form label{
+    font-weight: 500;
+    margin: 7px;
+}
+
+.contact-form .form-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 18px;
+    padding: 0;
+}
+
+.contact-form button{
+    background-color: var(--orange);
+    color: white;
+    width: 100%;
+    font-weight: 600;
+}
+
+.footer{
+    background-color: var(--bg-blue);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.footer h3{
+    color: white;
+    font-size: 32px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+
+.footer p{
+    color: white; 
+    text-align: center;
+    margin-top: 1em;
+}
+
+.footer .footer-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .btn{
+    background-color: var(--orange);
+    color: white;
+    padding: 0.6em;
+    margin: auto 0;
+    width: 18em;
+}
+
+.footer .btn:focus-visible{
+    outline: 0;
+}
+
+.footer .btn i{
+    color: white;
+    vertical-align: center;
+    margin-left: 1em;
+}
+
+.footer .btn:hover i{
+   color: black;
+}
+
+.live-chat{
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+}
+
+.live-chat button{
+    background-color: var(--orange);
+    color: white;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    padding: 2px;
+}
+
+.live-chat button i{
+    color: white;
+}
